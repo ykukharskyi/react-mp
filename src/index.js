@@ -5,6 +5,6 @@ const port = process.env.PORT || 8080;
 
 app.use(express.static('static'));
 
-app.listen(port, function () {
-    console.log(`app listening on port ${port}!`);
+app.listen(port, () => {
+  console.log(`app listening on port ${port}!`);
 });
