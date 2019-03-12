@@ -1,11 +1,10 @@
 {
-  "name": "react-mp",
+  "name": "react-mp-server",
   "version": "1.0.0",
-  "description": "React Mentoring Program",
-  "main": "src/index.js",
+  "description": "React Mentoring Program Server",
+  "main": "src/index.jsx",
   "scripts": {
-    "start": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +18,8 @@
   "homepage": "https://github.com/ykukharskyi/react-mp#readme",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "copy": "^0.3.2"
   }
 }
