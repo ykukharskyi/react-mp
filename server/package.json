@@ -2,7 +2,7 @@
   "name": "react-mp-server",
   "version": "1.0.0",
   "description": "React Mentoring Program Server",
-  "main": "src/index.jsx",
+  "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
   },
@@ -18,8 +18,5 @@
   "homepage": "https://github.com/ykukharskyi/react-mp#readme",
   "dependencies": {
     "express": "^4.16.4"
-  },
-  "devDependencies": {
-    "copy": "^0.3.2"
   }
 }
