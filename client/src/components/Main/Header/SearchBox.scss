@@ -1,0 +1,25 @@
+.search-title {
+  color: white;
+  text-transform: uppercase;
+}
+
+.search-input {
+  width: 100%;
+  height: 30px;
+  color: white;
+  background-color: black;
+  border-width: 0 0 2px 0;
+  border-bottom-color: red;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.search-button {
+  float: right;
+}

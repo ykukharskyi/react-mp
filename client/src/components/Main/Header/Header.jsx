@@ -1,13 +1,13 @@
 import React from 'react';
 
 import NetflixLogo from '../common/NetflixLogo';
+import SearchBox from './SearchBox';
 
 import './Header.scss';
 
-const Header = () => (
+export default props => (
   <div className="header header-netflix-background">
     <NetflixLogo />
+    <SearchBox />
   </div>
 );
-
-export default Header;
