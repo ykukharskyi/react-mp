@@ -1,30 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 
-const helloByCreateElement = React.createElement('div', {}, 'Hello World');
+import Main from './components/Main';
 
-const HelloByFunction = () => {
-  return <div>Hello World</div>;
-};
-
-class HelloByComponent extends React.Component {
-  render () {
-    return <div>Hello World</div>;
-  }
-}
-
-class HelloByPureComponent extends React.PureComponent {
-  render () {
-    return <div>Hello World</div>;
-  }
-}
-
-ReactDOM.render(
-  <React.Fragment>
-    {helloByCreateElement}
-    <HelloByFunction />
-    <HelloByComponent />
-    <HelloByPureComponent />
-  </React.Fragment>,
+render(
+  <Main />,
   document.getElementById('container')
 );
