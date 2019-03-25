@@ -3,7 +3,7 @@ import React from 'react';
 import './Header.scss';
 
 const Header = () => (
-  <div className="header">
+  <div className="header header-netflix-background">
     Header here
   </div>
 );
