@@ -1,7 +1,9 @@
 import React from 'react';
 
+import Input from './Button.styles';
+
 const Button = () => (
-  <input type="button" value="Some title for the button" />
+  <Input type="button" value="Some title for the button" />
 );
 
 export default Button;

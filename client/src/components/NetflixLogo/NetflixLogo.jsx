@@ -1,11 +1,11 @@
 import React from 'react';
 
-import './NetflixLogo.scss';
+import Span from './NetflixLogo.styles';
 
 const NetflixLogo = () => (
-  <span className="netflix-logo">
+  <Span className="netflix-logo">
     netflixroulette
-  </span>
+  </Span>
 );
 
 export default NetflixLogo;
