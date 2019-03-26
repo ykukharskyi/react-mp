@@ -1,6 +1,6 @@
 import React from 'react';
 
-import NetflixLogo from '../common/NetflixLogo';
+import NetflixLogo from '../../components/NetflixLogo';
 
 import './Footer.scss';
 
