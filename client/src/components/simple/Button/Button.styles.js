@@ -8,4 +8,5 @@ export default styled.input`
   border: none;
   border-radius: 3px;
   font-size: 16px;
+  text-transform: uppercase;
 `;

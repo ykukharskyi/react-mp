@@ -1,7 +1,7 @@
 import React from 'react';
 
-import NetflixLogo from '../../components/NetflixLogo';
-import SearchBox from './SearchBox';
+import NetflixLogo from '../../components/simple/NetflixLogo';
+import SearchBox from '../../components/complex/SearchBox';
 
 import './Header.scss';
 
