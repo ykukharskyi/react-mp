@@ -3,4 +3,4 @@ import { storiesOf } from '@storybook/react';
 import Button from './Button';
 
 storiesOf('Button', module)
-  .add('default', () => <Button title="Button text" />);
+  .add('default', () => <Button title="Search" />);

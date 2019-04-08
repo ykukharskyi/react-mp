@@ -11,7 +11,10 @@ const Row = ({ children }) => (
 );
 
 Row.propTypes = {
-  children: PropTypes.instanceOf(Column).isRequired
+  children: PropTypes.oneOfType([
+    PropTypes.instanceOf(Column),
+    PropTypes.arrayOf(Column)
+  ]).isRequired
 };
 
 export default Row;
