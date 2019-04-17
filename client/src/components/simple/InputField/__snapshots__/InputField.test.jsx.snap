@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputField default render 1`] = `<styled.input />`;
+
+exports[`InputField with placeholder 1`] = `
+<styled.input
+  placeholder="hi there"
+/>
+`;
