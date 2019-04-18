@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button primary 1`] = `
+<styled.input
+  onClick={[Function]}
+  type="button"
+  value="Search"
+/>
+`;
+
+exports[`Button primary small 1`] = `
+<styled.input
+  onClick={[Function]}
+  type="button"
+  value="title"
+/>
+`;
+
+exports[`Button primary small grey 1`] = `
+<styled.input
+  onClick={[Function]}
+  type="button"
+  value="title"
+/>
+`;
+
+exports[`Button secondary 1`] = `
+<styled.input
+  onClick={[Function]}
+  type="button"
+  value="Search"
+/>
+`;
+
+exports[`Button transparent 1`] = `
+<styled.input
+  onClick={[Function]}
+  type="button"
+  value="release date"
+/>
+`;
